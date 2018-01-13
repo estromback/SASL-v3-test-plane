@@ -1,0 +1,43 @@
+[EXAMPLE INFO]: Path to module: /Applications/X-Plane 1050 Demo/TESTING/test plane/modules/main.lua
+[EXAMPLE INFO]: Loading module...
+[EXAMPLE INFO]:  [LUA]: loading	panel
+[EXAMPLE INFO]:  [LUA]: loading	shadersTest
+[EXAMPLE INFO]:  [LUA]: loading	rectangle
+[EXAMPLE INFO]:  [LUA]: loading	clickable
+[EXAMPLE INFO]:  [LUA]: loading	gridLayoutTest
+[EXAMPLE INFO]:  [LUA]: loading	primitivesTest
+[EXAMPLE INFO]:  [LUA]: loading	time_logic
+[EXAMPLE INFO]:  [LUA]: loading	datarefTest
+[EXAMPLE INFO]:  [LUA]: loading	camerasTest
+[EXAMPLE INFO]:  [LUA]: loading	menusTest
+[EXAMPLE INFO]:  [LUA]: loading	messageWindowsTest
+[EXAMPLE INFO]:  [LUA]: loading	soundTest
+[EXAMPLE INFO]: Loading cursors...
+[EXAMPLE INFO]: Module loaded
+[EXAMPLE WARN]: DataRefsHandler::luaGetDataRef: inappropriate range selected for <1-sim/test/int_array>
+[EXAMPLE WARN]: DataRefsHandler::luaGetDataRef: inappropriate range selected for <1-sim/test/int_array>
+[EXAMPLE WARN]: DataRefsHandler::luaGetDataRef: inappropriate range selected for <1-sim/test/float_array>
+[EXAMPLE WARN]: DataRefsHandler::luaGetDataRef: inappropriate range selected for <1-sim/test/float_array>
+[EXAMPLE WARN]: DataRefsHandler::luaGetDataRef: inappropriate range selected for <sim/aircraft/panel/acf_ins_type>
+[EXAMPLE WARN]: DataRefsHandler::luaGetDataRef: inappropriate range selected for <sim/aircraft/panel/acf_ins_type>
+[EXAMPLE WARN]: DataRefsHandler::luaFindDataRef: type 2 not supported by <sim/aircraft/engine/acf_num_engines> (1)
+[EXAMPLE WARN]: DataRefsHandler::luaFindDataRef: <sim/notdefined/testdataref> not found
+[EXAMPLE WARN]:  [LUA <globalPropertyf>: @/Applications/X-Plane 1050 Demo/TESTING/test plane/plugins/AE SASL/data/init/initProperties.lua:184]: "sim/aircraft/panel/acf_ins_size": Can't cast float array to float
+[EXAMPLE WARN]:  [LUA <globalPropertyfa>: @/Applications/X-Plane 1050 Demo/TESTING/test plane/plugins/AE SASL/data/init/initProperties.lua:529]: "sim/aircraft/engine/acf_num_engines": Can't cast integer to float array
+[EXAMPLE WARN]:  [LUA <globalPropertyfa>: @/Applications/X-Plane 1050 Demo/TESTING/test plane/plugins/AE SASL/data/init/initProperties.lua:529]: "sim/aircraft/view/acf_tailnum": Can't cast string to float array
+[EXAMPLE WARN]:  [LUA <globalPropertyi>: @/Applications/X-Plane 1050 Demo/TESTING/test plane/plugins/AE SASL/data/init/initProperties.lua:260]: "sim/aircraft/panel/acf_ins_type": Can't cast integer array to integer
+[EXAMPLE WARN]:  [LUA <globalPropertyia>: @/Applications/X-Plane 1050 Demo/TESTING/test plane/plugins/AE SASL/data/init/initProperties.lua:427]: "sim/aircraft/engine/acf_num_engines": Can't cast integer to integer array
+[EXAMPLE WARN]:  [LUA <globalPropertyia>: @/Applications/X-Plane 1050 Demo/TESTING/test plane/plugins/AE SASL/data/init/initProperties.lua:427]: "sim/aircraft/view/acf_tailnum": Can't cast string to integer array
+[EXAMPLE WARN]:  [LUA <globalPropertys>: @/Applications/X-Plane 1050 Demo/TESTING/test plane/plugins/AE SASL/data/init/initProperties.lua:330]: "sim/aircraft/panel/acf_ins_size": Can't cast float array to string
+[EXAMPLE WARN]: DataRefsHandler::luaGetDataRef: inappropriate range selected for <sim/aircraft/panel/acf_ins_type>
+[EXAMPLE INFO]:  [LUA]: 
+[EXAMPLE INFO]:  [LUA]: Failed tests:
+[EXAMPLE INFO]:  [LUA]: -------------
+[EXAMPLE INFO]:  [LUA]: 1) TestGlobalProperty.testPartialIO
+[EXAMPLE INFO]:  [LUA]: ...TESTING/test plane/modules/Custom Module/datarefTest.lua:748: expected: 275, actual: 276
+[EXAMPLE INFO]:  [LUA]: stack traceback:
+	...TESTING/test plane/modules/Custom Module/datarefTest.lua:748: in function 'TestGlobalProperty.testPartialIO'
+[EXAMPLE INFO]:  [LUA]: 
+[EXAMPLE INFO]:  [LUA]: Ran 27 tests in 0.002 seconds, 26 successes, 1 failures
+[EXAMPLE INFO]:  [LUA]: "messageWindowsTest"	OK -- button pressed
+[EXAMPLE INFO]: Disabling...
